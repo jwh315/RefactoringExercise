@@ -1,0 +1,67 @@
+# Autosave files
+*~
+
+# build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+*.bin
+*.obj
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+.vs/
+.vscode/
+.idea
+
+# Mac bundle stuff
+*.dmg
+*.app
+
+# resharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
+.env
+
+tempkey.rsa
+tempkey.jwk
+secrets.json
+example.pfx
+/mysqldata
+
+
+/Source/CAL.CD.IdentityServer.MVC/Dockerfile
+/docker-compose.vs.Debug.yml
+
+docker-compose.override.yml
+
+# Dependency directories
+node_modules/
+
+#playwright videos and files
+**/playwright/test-results
+**/playwright/results.xml
+
+NuGet.config
