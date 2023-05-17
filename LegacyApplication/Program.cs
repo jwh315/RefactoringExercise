@@ -25,8 +25,10 @@ for (var i = 0; i < 50; i++)
     }
 }
 
-Console.WriteLine("User was successfully created");
-
 var users = await UserService.GetAllUsers();
     
 users.ForEach(u => Console.WriteLine(JsonSerializer.Serialize(u)));
+
+Console.WriteLine("------------------------------------------------");
+
+Console.WriteLine($"{users.Count} users were successfully created");

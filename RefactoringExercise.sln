@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringExercise", "RefactoringExercise\RefactoringExercise.csproj", "{9CCFC71A-2705-4387-A3F9-0FBC59BEA16D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApplication", "LegacyApplication\LegacyApplication.csproj", "{9CCFC71A-2705-4387-A3F9-0FBC59BEA16D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mock", "Mock\Mock.csproj", "{FE220640-77C7-45F6-8E37-A00CDFC2F033}"
 EndProject
