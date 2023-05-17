@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using Bogus;
 using Microsoft.Extensions.Hosting;
-using RefactoringExercise;
+using LegacyApplication;
 
 using IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>

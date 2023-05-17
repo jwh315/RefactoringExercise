@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace RefactoringExercise;
+namespace LegacyApplication;
 
 public class UserRepository
 {

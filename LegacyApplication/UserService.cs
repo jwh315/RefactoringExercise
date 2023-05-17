@@ -1,4 +1,4 @@
-namespace RefactoringExercise;
+namespace LegacyApplication;
 
 public static class UserService
 {
