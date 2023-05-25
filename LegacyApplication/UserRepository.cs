@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LegacyApplication;
 
-public class UserRepository
+public class UserRepository: IUserRepository
 {
     public static ApplicationDbContext DbContext { get; set; }
     
@@ -31,4 +31,11 @@ public class UserRepository
     {
         return await DbContext.Users.ToListAsync();
     }
+}
+
+public interface IUserRepository
+{
+    void Add(User user);
+
+    Task<List<User>> GetAllUsers();
 }

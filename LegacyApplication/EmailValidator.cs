@@ -1,6 +1,6 @@
 namespace LegacyApplication;
 
-public class EmailValidator
+public class EmailValidator: IEmailValidator
 {
     public async Task<bool> ValidateEmailAddress(string emailAddress)
     {
@@ -12,4 +12,9 @@ public class EmailValidator
 
         return result.IsSuccessStatusCode;
     }
+}
+
+public interface IEmailValidator
+{
+    Task<bool> ValidateEmailAddress(string emailAddress);
 }
